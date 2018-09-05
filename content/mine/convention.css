@@ -1,0 +1,243 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: white;
+	opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	color: white;
+}
+
+.search
+{
+	border-radius: initial;
+	border: transparent;
+	border-bottom: 1px white solid;
+	background: transparent;
+	color:white;
+}
+
+.limparM{
+	margin:0;
+}
+.limparP{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.oval { 
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background: #d7e0e8;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100% / 70%;
+	top: -29px;
+}
+
+.oval > div{
+	position: relative;
+	top: 29px;
+}
+ .sombreado{
+ 	box-shadow: 2px 5px 10px 1px grey;
+ }
+ .shadowed {
+    -webkit-filter: drop-shadow(6px 6px 6px rgba(0,0,0,0.5));
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+.sf {
+    -webkit-filter: drop-shadow(3px 2px 2px rgba(0,0,0,0.5));
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+ .white{
+ 	color:white;
+ }
+
+ .white > ul > li{
+ 	color: white;
+ 	
+    font-size: 70%;
+ }
+ .green{
+ 	color: #6bd15c;
+ }
+
+ .green:hover{
+ 	color: #218838;
+ }
+ .green > label{
+ 	color: #6bd15c;
+ }
+  .green > label:hover{
+ 	color: #218838;
+ }
+ html{
+	background: white;
+}
+
+.textbox{
+	border-radius: initial;
+	border: transparent;
+	border-bottom: 1px #6bd15c solid;
+	background: transparent;
+	color:#000;
+}
+.erro{
+	color: #dc3545;
+}
+.erro > label > input{
+	border-bottom: 1px #dc3545 solid;
+}
+.erro > input{
+	border-bottom: 1px #dc3545 solid;
+}
+
+.textbox::-webkit-input-placeholder{
+	color:#b5b0b3;opacity:1
+}
+.textbox::-moz-placeholder{
+	color:#b5b0b3;opacity:1
+}
+.textbox:-ms-input-placeholder{
+	color:#b5b0b3;opacity:1
+}
+.textbox::-ms-input-placeholder{
+	color:#b5b0b3;opacity:1
+}
+.textbox::placeholder{
+	color:#b5b0b3;opacity:1
+}
+#foto{
+	background: white;
+	border-radius: 	50%;
+}
+.foto{
+	background: white;
+	border-radius: 	50%;
+	border: 8px solid cornflowerblue;
+}
+
+.r-180{
+	 transform: rotate(180deg);
+}
+
+.r-90{
+	 transform: rotate(90deg);
+}
+.pgt{
+	width: 3300px;
+	box-sizing: border-box;
+	
+}
+.clear{
+	clear: both;
+}
+.pgb{
+	width: 130px;
+	float:left;
+	box-sizing: border-box;
+}
+.pgc{
+	width: 50px;
+	float:left;
+	box-sizing: border-box;
+}
+.pg{
+	background-color: white;
+	color:#6bd15c;
+	border-radius: 2px;
+}
+.pg-active
+{
+	color:white;
+	background-color: #218838;
+    border-color: #1e7e34 2px solid;
+}
+.pg:hover
+{
+	color:white;
+	background-color: #6bd15c;
+    border-color: #1e7e34 2px solid;
+}
+
+.pgc a{
+	color:black;
+	padding: 0 17px 0 17px;
+}
+.pgc a:hover{
+	color:#6bd15c ;
+}
+
+.reac{
+	width: 30px;
+}
+
+.wButton{
+	background: transparent;
+	border: 0;
+}
+
+.denuncia label{
+	 background: #fff no-repeat center center;
+  bottom: 1px;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  left: 1px;
+  position: absolute;
+  right: 1px;
+  text-indent: 100%;
+  top: 1px;
+  white-space: nowrap;
+}
+
+.click
+{
+	cursor: pointer;
+}
+.social{
+	-webkit-filter: grayscale(100%);
+}
+.social:hover{
+	-webkit-filter: none;
+}
+.social-select{
+	-webkit-filter: none;
+}
+.naBotao{
+	border:0;
+	font-weight: 500;
+}
+
+.navColider{
+	height:100vh;
+}
+
+.fonte{
+	font-family: 'Anton', sans-serif;
+}
+
+h1{
+	font-size: 80px;
+}
+.desativado{
+	filter:grayscale(1);
+}
+.nav-link.ativado{
+	color:white;
+}
+.nav-link.desativado{
+	color:#cab7b7;
+}
+.nav-link.desativado:hover{
+	color:black;
+}
+.skill{
+}
