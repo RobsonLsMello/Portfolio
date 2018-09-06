@@ -52,7 +52,7 @@ skills.push(new Skill("img/java.svg","java","java",3,"POO, POE, MVC, emails, con
 skills.push(new Skill("img/arduino.png","arduino","Arduino",2,"POE, Manipulação e recepção das portas digitais e analogicas, uso e monitoramento de Serial"));
 skills.push(new Skill("img/unity.png","unity","Unity",3,"Uso da linguagem C#(POO, POE), desenvolvimento 2D e 3D, manipução de assets, criação de animação, scriptable objects, bibliotecas(PlayerPrefsX, Dragable), Prefabs, Sistema RPG(exp, combate, história), conexão ao banco de dados(MySql), consumo de webservices"));
 skills.push(new Skill("img/eclipse.png","eclipse","Eclipse",2,"Uso da linguagem Java(POO, POE), programação para Android, conexão ao banco de dados(sqlLite)"));
-skills.push(new Skill("img/mysql.svg","mysql","MySql Programmer",4,"Criação do banco de dados(relação PK, FK, UQ, objeto de resolução), passagem de toda regras de negócio para o banco, criação de views, procedures, functions, cursores, regex, MD5"));
+skills.push(new Skill("img/mysql.svg","mysql","MySql Programmer",4,"Selects(Simples, joins, subselects), criação do banco de dados(relação PK, FK, UQ, objeto de resolução), passagem de toda regras de negócio para o banco, criação de views, procedures, functions, cursores, regex, MD5"));
 skills.push(new Skill("img/cisco.svg","cisco","Cisco Packet Tracer",1,"Análise e dimensionamento de redes[roteador, hub, máquinas servidores(DHCP, HTTP, DNS) e usuários])"));
 skills.push(new Skill("img/word.svg","word","Word",3,"Formatação em regras ABNT, uso de funções"));
 skills.push(new Skill("img/excel.svg","Excel","Excel",4,"Manipulação de dados, criação de tabelas dinâmicas, Procv, consumo de webservices, uso de fórmulas, gráficos"));
