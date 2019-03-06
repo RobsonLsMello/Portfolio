@@ -48,7 +48,7 @@ $("#ano").html(function(){
     {
         semestres++;
     }
-    return (semestres+(anoAtual*2)) + "° Semestre, término previsto: Dezembro/2023";
+    return (semestres+(anoAtual*2)) + "° Semestre, término previsto: Dezembro/2022";
 })
 
 $(window).scroll(function(){
