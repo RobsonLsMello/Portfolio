@@ -91,17 +91,13 @@
 									<li>CSS -> Bootstrap</li>
 									<li>HTML</li>
 								</ul>
-								Acesse:	<a href="//logquest.com.br/" target="_blank" style="color:black">http://logquest.com.br/</a>
+								Acesse:	<button value="https://logquest.com.br/" target="_blank" class="site btn btn-link"  style="color:black">LogQuest</button>
 							</p>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-7" style="overflow: scroll; height: 500px;">
-							<img class="img img-fluid rounded" src="img/inicio.PNG" alt="LogQuest">
-							<hr/>
-							<img class="img img-fluid rounded" src="img/forum.PNG" alt="LogQuest">
-							<hr/>
-							<frame src='https://esquizobook.000webhostapp.com/'>
+						<div class="col-md-7">
+								<img class="img img-fluid " src="img/logoEsquizobook.svg" alt="LogQuest">							
 						</div>
 						<div class="col-md-5">
 							<h3 class="h2">Co-projeto EsquizoBook - TCC Enfermagem</h3>
@@ -118,7 +114,7 @@
 									<li>Ckeditor; SweetAlert 2;</li>
 									<li>HTML</li>
 								</ul>
-								Acesse:	<a href="https://esquizobook.000webhostapp.com/" style="color:black">EsquizoBook(Teste)</a>
+								Acesse:	<button value="https://esquizobook.000webhostapp.com/" class="site btn btn-link" style="color:black">EsquizoBook(Teste)</button>
 							</p>
 						</div>
 					</div>
@@ -264,7 +260,30 @@
 					<div class="">
 						<h2>Skills (Junior to <strong>Full</strong>)</h2>
 						<div class="text-center row" id="reSkills">
-
+							<div class="text-center row col-12" id="Linguagens">
+								<h3 class="row col-12">Linguagens</h3>
+							</div>
+							<div class="text-center row col-12" id="Bancos">
+								<h3 class="row col-12">Bancos de Dados</h3>
+							</div>
+							<div class="text-center row col-12" id="Frameworks">
+								<h3 class="row col-12">Frameworks/Bibliotecas</h3>
+							</div>
+							<div class="text-center row col-12" id="design">
+								<h3 class="row col-12">Design, Front, Protipagem, UX</h3>
+							</div>
+							<div class="text-center row col-12" id="Plataformas">
+								<h3 class="row col-12">Plataformas</h3>
+							</div>
+							<div class="text-center row col-12" id="Office">
+								<h3 class="row col-12">Office e Microsoft</h3>
+							</div>
+							<div class="text-center row col-12" id="Modelagem3D">
+								<h3 class="row col-12">Modelagem 3D</h3>
+							</div>
+							<div class="text-center row col-12" id="Outros">
+								<h3 class="row col-12">Outros</h3>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -273,12 +292,32 @@
 		<br>
 		<br>
 		<br>
+		<!-- Modal -->
+		<div class="modal fade" id="siteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					</div>
+					<div class="modal-body">
+						<iframe id="frameworkurl" style="width:100%;height:500px;" src='https://esquizobook.000webhostapp.com/'></iframe>
+					</div>
+					<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+					</div>
+				</div>
+			</div>
+		</div>
 		<footer class="row">
 			<div class="col-md-3"></div>
 			<div class="col-md-9">	
 				<div >Icones feitos pela <a href="//www.freepik.com" target="_blank" style="color:black" title="Freepik">Freepik</a> em: <a href="https://www.flaticon.com/" target="_blank"  style="color:black" title="Flaticon">www.flaticon.com</a> é licenciado por <a href="//creativecommons.org/licenses/by/3.0/" style="color:black" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 			</div>
-			</footer>
+		</footer>
 		<!--Bootstrap Scripts-->
 		<script src='script/lib/jquery-3.3.1.slim.min.js'></script>
 		<script src='script/lib/popper.min.js'></script>

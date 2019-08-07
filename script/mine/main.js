@@ -32,7 +32,10 @@ function mdColider(){
     $(".foto").css("visibility", "hidden");
     $("#btnColapseShow").removeAttr('hidden');
 }
-
+$(".site").click(function(){
+    $('#siteModal').modal('show');
+    $("#frameworkurl").attr("src", $(this).val());
+})
 $("#ano").html(function(){
     var date = new Date();
     var yInicio = 2018;
