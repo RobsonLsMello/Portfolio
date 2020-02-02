@@ -12,12 +12,16 @@
 		<link rel='stylesheet' href='content/Bootstrap/bootstrap.min.css'>
 		<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 		<link rel='stylesheet' href='content/mine/convention.css'>		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body class="">
 		<header class="">
 			
 			<nav class="fixed-top bg-primary col-md-3 text-right navColider limparP" id="nav">
-				<button class="btn btn-primary" data-toggle="collapse" data-target="#colider" id="btnColapseShow" hidden aria-expanded="true">Mostrar</button>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colider" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+					<i class="fa fa-bars button-toogle"></i>
+				  </button>
+				
 				<div style="margin-top: 200px" id="colider" class="collapse show bg-primary text-center">
 					<img class="img foto sf" src="img/fotoPerfil.png" alt="Foto de Robson" title="Foto" width="150px" height="150px">
 					<ul class='mr-auto limparP' style="margin:0 auto;list-style-type: none;">
@@ -73,50 +77,8 @@
 					<br/>
 					<br/>
 					<hr id="projetos"/>
-					<div class="row">
-						<div class="col-md-7">
-							<img class="img img-fluid rounded" src="img/LogQuest.PNG" alt="LogQuest">
-						</div>
-						<div class="col-md-5">
-							<h3 class="h2">Projeto LogQuest - TCC (Grupo)</h3>
-							<h4>Web e Unity</h4>
-							<p>
-								Para desenvolver a capacidade de lógica em programação.
-								<ul>Técnologias Utilizadas:
-									<li>Unity 2D</li>
-									<li>Asp.NET MVC</li>
-									<li>MySQL</li>
-									<li>WebService</li>
-									<li>Javascript</li>
-									<li>CSS -> Bootstrap</li>
-									<li>HTML</li>
-								</ul>
-								Acesse:	<button value="https://logquest.com.br/" target="_blank" class="site btn btn-link"  style="color:black">LogQuest</button>
-							</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-7">
-								<img class="img img-fluid " src="img/logoEsquizobook.svg" alt="LogQuest">							
-						</div>
-						<div class="col-md-5">
-							<h3 class="h2">Co-projeto EsquizoBook - TCC Enfermagem</h3>
-							<h4>Web</h4>
-							<p>
-								Rede Social/Fórum para portadores de Esquizofrênia, para aproximar e não separar.
-								<ul>Técnologias Utilizadas até o momento:
-									<li>PHP MVC (Casca)</li>
-									<li>MySQL-> Business Layer</li>
-									<li>Javascript</li>
-									<li>Jquery</li>
-									<li>Jquery -> Ajax</li>									
-									<li>CSS -> Bootstrap</li>
-									<li>Ckeditor; SweetAlert 2;</li>
-									<li>HTML</li>
-								</ul>
-								Acesse:	<button value="https://esquizobook.000webhostapp.com/" class="site btn btn-link" style="color:black">EsquizoBook(Teste)</button>
-							</p>
-						</div>
+					<div id="projetosDIV">
+
 					</div>
 					<hr id="formacao"/>
 					<div class="">
@@ -323,5 +285,6 @@
 		<script src='script/Bootstrap/bootstrap.min.js'></script>
 		<script src='script/mine/main.js'></script>
 		<script src='script/mine/Skills.js'></script>
+		<script src='script/mine/projetos.js'></script>
 	</body>
 </html>

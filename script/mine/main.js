@@ -25,17 +25,14 @@ $(function(){
 function mdColider(){
     $("#colider").collapse("hide");
     $("#nav").removeClass("navColider");
-    $("#nav").height("100px");
+
     $("#colider").css("margin-top", "0px");
     $(".foto").attr("width", 0);
     $(".foto").attr("height", 0);
     $(".foto").css("visibility", "hidden");
     $("#btnColapseShow").removeAttr('hidden');
 }
-$(".site").click(function(){
-    $('#siteModal').modal('show');
-    $("#frameworkurl").attr("src", $(this).val());
-})
+
 $("#ano").html(function(){
     var date = new Date();
     var yInicio = 2018;

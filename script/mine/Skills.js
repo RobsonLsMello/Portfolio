@@ -16,13 +16,13 @@ class Skill{
                 '<img src="'+this.src+'" alt="'+this.alt+'" title="'+this.title+'" class="skill"  data-toggle="popover" data-content="'+this.conteudo+'" width="100px" height="100px">'+
             '</div>'+
             '<div>';
-        for(var i = 0; i<5; i++)
+        /*for(var i = 0; i<5; i++)
         {
             html += '<img src="img/star.svg" alt="star" title="star" width="20px" height="20px" class = "';
             if(i >= this.prof)
                 html += 'desativado';
             html += '">';
-        }
+        }*/
         html += 
             '</div>'+
         '</div>';            
